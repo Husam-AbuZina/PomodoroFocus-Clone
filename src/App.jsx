@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Layout from './components/Layout/Layout'
 import Box from './components/box/box'
+import Header from './components/Header/Header'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
     <Layout>
+      {/* <Header /> */}
       <Box />
     </Layout>
     </>

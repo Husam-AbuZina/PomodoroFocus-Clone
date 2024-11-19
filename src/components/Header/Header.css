@@ -43,3 +43,75 @@
   outline: none;
   border-bottom: 2px solid white;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.icon-text {
+  display: flex;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.button-header {
+  background-color: #c17474;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.button-header:hover {
+  cursor: pointer;
+  background-color: #c08383;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-img {
+  margin-right: 5px;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 24px; /* Example: Styling the logo */
+  font-weight: bold;
+  color: black; /* Default logo color */
+}
+
+.logo:hover {
+  text-decoration: none; /* Ensure no underline on hover */
+  /* color: blue; Optional: Change color on hover */
+}
+.ul {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+}
+
+/* Add a line under elements */
+.underlined {
+  display: inline-block;      /* Ensures proper size for the border */
+  border-bottom: 2px solid white; /* Line thickness and color */
+  padding-bottom: 5px;       /* Space between text and line */
+}
