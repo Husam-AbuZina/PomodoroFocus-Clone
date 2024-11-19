@@ -1,6 +1,21 @@
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: #c17474;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+.timer {
+display: flex;
+justify-content: center;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
 }
