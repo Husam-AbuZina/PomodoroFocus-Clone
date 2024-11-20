@@ -1,19 +1,22 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Layout from './components/Layout/Layout'
-import Box from './components/box/box'
-import Header from './components/Header/Header'
+import Box from './components/Box/Box'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [backgroundColor, setBackgroundColor] = useState("#ffffff");
+
+  useEffect(() => {
+    document.body.style.backgroundColor = "#ff6347";
+  }, [backgroundColor]);
   // useState()
   // useEffect()
-
+  console.log("backgruond color =====> " + backgroundColor)
   return (
     <>
     <Layout>
       {/* <Header /> */}
-      <Box />
+      <Box changeBackground={setBackgroundColor}/>
     </Layout>
     </>
   )
